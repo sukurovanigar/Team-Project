@@ -1,23 +1,42 @@
 section{
+    .contact-margin{
+            margin-top:100px;
+    }
     margin-top:100px;
     .contactUs{
         border: 1px solid #25d25e;
         padding: 30px 20px;
-        .breadcrumb {
+    .breadcrumb {
             background-color: white!important;
             position: absolute;
             top: 20%;
-            a{
-                 color:#333333;
-            }
-           
-        }
-     }
-}
+            a{color:#333333;}}}}
 .mapAndMail{
     background-color: #f7f7f7;
     border-top: 1px solid #eaeaea;
+    .margin-botton-message{
+  
+    }
     .maptop{
         margin-top: 100px;
+       }
+    .btn-color{
+        background-color: #25d25e;
+        border: 1px solid #25d25e;
+        color: white;
+        margin-top: 20px;
+        padding: 15px 30px;
+        border-radius: 2px;}
+        }
+.searchEngine{
+    background-color: #25d25e;
+    .col-sm-4{
+        .btn-color2{
+        background-color: #25d25e;
+        border: 1px solid #25d25e;
+        color: white;
+        margin-top: 20px;
+        padding: 15px 30px;
+        border-radius: 2px;}
     }
 }

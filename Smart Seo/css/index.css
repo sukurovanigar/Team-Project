@@ -1,5 +1,7 @@
 section {
   margin-top: 100px; }
+  section .contact-margin {
+    margin-top: 100px; }
   section .contactUs {
     border: 1px solid #25d25e;
     padding: 30px 20px; }
@@ -15,5 +17,22 @@ section {
   border-top: 1px solid #eaeaea; }
   .mapAndMail .maptop {
     margin-top: 100px; }
+  .mapAndMail .btn-color {
+    background-color: #25d25e;
+    border: 1px solid #25d25e;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 2px; }
+
+.searchEngine {
+  background-color: #25d25e; }
+  .searchEngine .col-sm-4 .btn-color2 {
+    background-color: #25d25e;
+    border: 1px solid #25d25e;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 2px; }
 
 /*# sourceMappingURL=index.css.map */
