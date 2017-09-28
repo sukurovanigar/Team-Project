@@ -1,81 +1,135 @@
-body{
-    height: 4000px;
+body {
+    height: 100%;
 }
-.contact-margin{
-            margin-top:100px;
-            margin-bottom: 100px;
-    }
-    .contactUs{
-        border: 1px solid #25d25e;
-        padding: 30px 20px;
+// =======================>>Contact Us<<====================
+.contact-margin {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.contactUs {
+    border: 1px solid #25d25e;
+    padding: 30px 20px;
     .breadcrumb {
-            background-color: white!important;
-            position: absolute;
-            top: 20%;
-            a{color:#333333;}}}
-.mapAndMail{
+        background-color: white!important;
+        position: absolute;
+        top: 20%;
+        a {
+            color: #333333;
+        }
+    }
+}
+// ===============>>Map And Mail<<======================
+.mapAndMail {
+             .form-control {
+                border: 1px solid #ddd;
+                color: #333;
+            }
+            textarea.form-control {
+                height: auto;
+            }
+            .form-control:focus {
+                border: 1px solid #25d25e;
+            }
     background-color: #f7f7f7;
     border-top: 1px solid #eaeaea;
-    .margin-bottom-message{
-        .col-sm-4{
-            li{
+    .margin-bottom-message {
+        margin-bottom: 100px;
+        .col-sm-4 {
+            .contact-form-info li {
                 font-size: 13px;
                 color: #777;
+                display: block;
                 padding-left: 75px;
                 margin-bottom: 20px;
                 position: relative;
-                i{
-                    background-color: #25d25e;
-                    color: #fff;
-                    text-align: center;
-                    width: 52px;
-                    height: 52px;
-                    line-height: 52px;
-                }
-                list-style: none;
             }
+            .contact-form-info li i {
+                background-color: #25d25e;
+                color: #fff;
+                display: block;
+                text-align: center;
+                width: 52px;
+                height: 52px;
+                line-height: 52px;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+            .contact-form-info li span {
+                display: block;
+                width: 250px;
+                line-height: 30px;
+            }
+            .contact-form-info-2 {
+                .info-item {
+                    display: block;
+                    background-color: #F7F7F7;
+                    border: 1px solid #ddd;
+                    padding: 80px 25px;
+                    border-radius: 3px;
+                }
+                .info-item i {
+                    display: inline-block;
+                    padding-bottom: 15px;
+                    border-bottom: 1px solid #25d25e;
+                    color: #25d25e;
+                    margin-bottom: 15px;
+                    font-size: 45px;
+                }
+                .info-item p {
+                    font-size: 13px;
+                }
+                .info-item p span {
+                    display: block;
+                }
+            }
+            list-style: none;
         }
-   margin-bottom: 100px;
-
+    }
 }
-    .maptop{
-        margin-top: 100px;
-       }
-    .btn-color{
-        background-color: #25d25e;
-        border: 1px solid #25d25e;
-        color: white;
-        margin-top: 20px;
-        padding: 15px 30px;
-        border-radius: 2px;}}
-.searchEngine{
-     .container.flx{
+
+.maptop {
+    margin-top: 100px;
+}
+
+.btn-color {
+    background-color: #25d25e;
+    border: 1px solid #25d25e;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 30px;
+    border-radius: 2px;
+}
+
+.searchEngine {
+    .container.flx {
         justify-content: center;
-     }
+    }
     position: relative;
     background-color: #25d25e;
     height: 300px;
     text-align: center;
-    h2{
+    h2 {
         color: white;
         position: absolute;
-        top:110px;
-
+        top: 110px;
     }
- .col-sm-4{
- .btn-color2{
-        position: relative;
-        top:80px;;
-        background-color: #25d25e;
-        border: 2px solid white;
-        color: white;
-        margin-top: 20px;
-        padding: 15px 30px;
-        border-radius: 2px;
-        &:hover{
-            background-color: white;
-            color:#25d25e;
+    .col-sm-4 {
+        .btn-color2 {
+            position: relative;
+            top: 80px;
+            ;
+            background-color: #25d25e;
+            border: 2px solid white;
+            color: white;
+            margin-top: 20px;
+            padding: 15px 30px;
+            border-radius: 2px;
+            &:hover {
+                background-color: white;
+                color: #25d25e;
+            }
         }
-    }
     }
 }
