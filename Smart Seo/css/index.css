@@ -1,20 +1,39 @@
-section {
-  margin-top: 100px; }
-  section .contact-margin {
-    margin-top: 100px; }
-  section .contactUs {
-    border: 1px solid #25d25e;
-    padding: 30px 20px; }
-    section .contactUs .breadcrumb {
-      background-color: white !important;
-      position: absolute;
-      top: 20%; }
-      section .contactUs .breadcrumb a {
-        color: #333333; }
+body {
+  height: 4000px; }
+
+.contact-margin {
+  margin-top: 100px;
+  margin-bottom: 100px; }
+
+.contactUs {
+  border: 1px solid #25d25e;
+  padding: 30px 20px; }
+  .contactUs .breadcrumb {
+    background-color: white !important;
+    position: absolute;
+    top: 20%; }
+    .contactUs .breadcrumb a {
+      color: #333333; }
 
 .mapAndMail {
   background-color: #f7f7f7;
   border-top: 1px solid #eaeaea; }
+  .mapAndMail .margin-bottom-message {
+    margin-bottom: 100px; }
+    .mapAndMail .margin-bottom-message .col-sm-4 li {
+      font-size: 13px;
+      color: #777;
+      padding-left: 75px;
+      margin-bottom: 20px;
+      position: relative;
+      list-style: none; }
+      .mapAndMail .margin-bottom-message .col-sm-4 li i {
+        background-color: #25d25e;
+        color: #fff;
+        text-align: center;
+        width: 52px;
+        height: 52px;
+        line-height: 52px; }
   .mapAndMail .maptop {
     margin-top: 100px; }
   .mapAndMail .btn-color {
@@ -26,13 +45,27 @@ section {
     border-radius: 2px; }
 
 .searchEngine {
-  background-color: #25d25e; }
+  position: relative;
+  background-color: #25d25e;
+  height: 300px;
+  text-align: center; }
+  .searchEngine .container.flx {
+    justify-content: center; }
+  .searchEngine h2 {
+    color: white;
+    position: absolute;
+    top: 110px; }
   .searchEngine .col-sm-4 .btn-color2 {
+    position: relative;
+    top: 80px;
     background-color: #25d25e;
-    border: 1px solid #25d25e;
+    border: 2px solid white;
     color: white;
     margin-top: 20px;
     padding: 15px 30px;
     border-radius: 2px; }
+    .searchEngine .col-sm-4 .btn-color2:hover {
+      background-color: white;
+      color: #25d25e; }
 
 /*# sourceMappingURL=index.css.map */
